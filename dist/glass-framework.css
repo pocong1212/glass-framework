@@ -220,7 +220,7 @@ template {
   --breakpoint-xl: 1200px;
   --breakpoint-md-value: 720px;
   --breakpoint-lg-value: 960px;
-  --breakpoint-xl-value: 1140px; }
+  --breakpoint-xl-value: 1250px; }
 
 .flex-1 {
   flex: var(--flex-1); }
