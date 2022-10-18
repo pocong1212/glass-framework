@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"node-sass index.scss dist/glass-framework.css"
+    "build":"node-sass index.scss dist/glass-framework.css",
+    "build-compact":"node-sass --output-style compressed index.scss dist/glass-framework.min.css",
+    "build-all" : "npm run build && npm run build-compact"
   },
   "keywords": [],
   "author": "",
